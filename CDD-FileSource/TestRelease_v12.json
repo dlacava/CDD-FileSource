@@ -23,7 +23,7 @@
             "environments": [
                 "${environment}"
             ],
-            "approvalGate": "MANUAL",
+            "approvalGate": "AUTOMATIC",
             "skipTasksWithUnchangedApplications": false,
             "isApprovalRequired": false,
             "name": "PhaseOne",
