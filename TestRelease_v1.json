@@ -13,7 +13,7 @@
                 "Local|${appName}/${appVersion}"
             ],
             "markAsDonePhaseName": "",
-            "runOnCreation": false,
+            "runOnCreation": true,
             "version": "${releaseVersion}",
             "name": "${releaseName}",
             "kind": "Release"
