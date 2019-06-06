@@ -5,7 +5,7 @@
             "name": "${appVersion}",
             "kind": "ApplicationVersion"
         },
-        {
+        { 
             "ownerParties": [
                 "dan.lacava@gmail.com"
             ],
