@@ -3,22 +3,6 @@
         {
             "name": "appName", 
             "value": "TestApp"
-        },
-        {
-            "name": "appVersion",
-            "value": "v1.0"
-        },
-        {
-            "name": "releaseName",
-            "value": "TestRelease"
-        },
-        {
-            "name": "releaseVersion",
-            "value": "v1"
-        },
-        {
-            "name": "${environment}",
-            "value": "Dev"
         } 
     ]
 }
