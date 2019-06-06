@@ -11,7 +11,7 @@
             ],
             "applicationVersions": [
                 "Local|${appName}/${appVersion}"
-            ],
+            ], 
             "markAsDonePhaseName": "",
             "runOnCreation": false,
             "version": "${releaseVersion}",
