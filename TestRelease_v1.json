@@ -1,0 +1,42 @@
+{
+    "objects": [
+        {
+            "application": "Local|${appName}",
+            "name": "v1.0",
+            "kind": "ApplicationVersion"
+        },
+        {
+            "ownerParties": [
+                "dan.lacava@gmail.com"
+            ],
+            "applicationVersions": [
+                "Local|TestApp/v1.0"
+            ],
+            "markAsDonePhaseName": "",
+            "runOnCreation": false,
+            "version": "v1",
+            "name": "TestRelease",
+            "kind": "Release"
+        },
+        {
+            "release": "TestRelease/v1",
+            "environments": [
+                "Dev"
+            ],
+            "approvalGate": "AUTOMATIC",
+            "skipTasksWithUnchangedApplications": false,
+            "isApprovalRequired": false,
+            "name": "PhaseOne",
+            "kind": "Phase"
+        },
+        {
+            "phase": "TestRelease/v1/PhaseOne",
+            "applicationVersions": [
+                "Local|TestApp/v1.0"
+            ],
+            "isDisabled": false,
+            "name": "TaskOne",
+            "kind": "Task"
+        }
+    ]
+}
